@@ -1,0 +1,413 @@
+* {
+    box-sizing: border-box;
+}
+
+.landing {
+
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+    background-color: #cdc9b7;
+}
+
+img {
+    width: 100%;
+}
+
+p {
+    font-family: 'Oswald', sans-serif;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    color: #525252;
+}
+
+/*start nav bar css*/
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 15px;
+  overflow: hidden;
+  background-color: #917b55;
+  font-size: 20px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #825432;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #525252;
+}
+
+.active {
+  background-color: #917b55;
+}
+
+.navlogo{
+    width: 200px;
+    z-index: 1;
+    position: absolute;
+    top: 0px
+}
+
+.navbar2{
+  list-style-type: none;
+  margin: 0;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  overflow: hidden;
+  background-color: #917b55;
+  font-size: 20px;
+}
+    
+/*end nav bar css*/
+
+.grid-container {
+    display: grid;
+    width: 1280px;
+    grid-template-columns: repeat(6, 1fr);
+    background-color: #cdc9b7;
+    background-color: #cdc9b7;
+}
+
+.intro_img {
+    grid-column: 2/6;
+    background-color: #cdc9b7;
+}
+
+.count_down_title {
+    grid-column: 1/7;
+    background-color: #525252;
+    
+}
+
+p.newalbumwords {
+    grid-column: 2/6;
+    font-size: 60px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: #b8814d;
+    
+}
+
+.count_down_numbers{
+    grid-column: 1/7;
+    background-color: #525252;
+}
+
+.js-container {
+    width: 1280px;
+    /* border: 1px solid black; */
+    margin: 0 auto;
+    background-color: #525252;
+    padding: 20px;
+}
+
+
+#MyCanvas {
+  display: block;
+  background-color:#525252;
+  margin: 0 auto;
+  padding: 20px 340px;
+  width: 1280px !important;
+  height: auto !important;    
+}
+
+/*  this is for the count down */
+p.newalbumwords {
+    font-size: 60px;
+    padding: 20px;
+    text-align: center;
+    color: #b8814d; 
+}
+
+/*About- Start*/
+
+.about_title{
+    grid-column: 2/4;
+    font-size: 32px;
+    background-color: #cdc9b7;
+    color: #525252;
+    text-align: right;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.about_main_img{
+    grid-column: 2/4;
+}
+
+.about_text{
+    grid-column: 4/6;
+    height: 426px;
+    padding-top: 0px;
+    padding-left: 10px;
+    text-align: justify;
+    overflow: scroll;
+}
+
+.about_gallery ul {
+  position:absolute;
+  top:1100px;
+  bottom:0;
+  left:0;
+  right:0;
+  margin:auto;
+  list-style:none;
+  width:955px;
+  height:450px;
+  border-radius:3px;
+  overflow:hidden;
+  box-shadow:1px 1px 3px 1px;
+  background-color: blu
+}
+
+
+.about_gallery li {
+  width:190px;
+  height:450px;
+  float:left;
+  border-left:1px solid white;
+  -webkit-transition:all 0.7s;
+  -moz-transition:all 0.7s;
+  transition:all 0.7s;
+  box-shadow:-2px 0 10px 2px;
+}
+
+.about_gallery ul li:first-child {
+  border:none;
+}
+
+.about_gallery span {
+  display:block;
+  position:absolute;
+  bottom:0;
+  width:50%;
+  color:white;
+  white-space:nowrap;
+  padding:20px;
+
+}
+
+.about_gallery img {
+  width:800px;
+  height:450px;
+}
+
+.about_gallery ul:hover li {
+  width:50px;  
+}
+
+
+.about_gallery ul li:hover {
+  width:750px;
+}
+
+/*About- End*/
+
+/*Music- Start*/
+.youtooimg{
+    grid-column: 2/4;
+    margin-top: 20px;
+}
+
+.socialicon1{
+    grid-column: 2/2;
+    width: 50px;
+    display: inline;
+    margin-top: 430px;
+}
+
+.socialiconyt1{
+    grid-column: 3/3;
+    width: 50px;
+    display: inline;
+    float: left;
+    margin-left: -150px;
+    margin-top: 430px;
+}
+
+.socialicon2{
+    grid-column: 2/2;
+    width: 50px;
+    display: inline;
+    margin-top: 400px;
+}
+
+.socialiconyt2{
+    grid-column: 3/3;
+    width: 50px;
+    display: inline;
+    float: left;
+    margin-top: 400px;
+    margin-left: -150px;
+}
+
+.socialicon3{
+    grid-column: 2/2;
+    width: 50px;
+    display: inline;
+    margin-top: 500px;
+}
+
+.socialiconyt3{
+    grid-column: 3/3;
+    width: 50px;
+    display: inline;
+    float: left;
+    margin-top: 500px;
+    margin-bottom: 20px;
+    margin-left: -150px;
+}
+
+.youtoolist {
+    color: #525252;
+    padding-left: 20px;
+    grid-column: 4/5;
+}
+
+.youtootitle{
+    font-size: 20px;
+    padding-left: 30px;
+    padding-top: 20px;
+    grid-column: 4/5;
+    color: #525252;
+}
+
+.prequalimg{
+    grid-column: 2/4;
+    margin-top: 20px;
+}
+
+.prequallist{
+    color: #525252;
+    padding-left: 20px;
+    grid-column: 4/5;
+}
+
+.prequaltitle{
+    font-size: 20px;
+    padding-left: 30px;
+    padding-top: 20px;
+    grid-column: 4/5;
+    color: 525252;
+}
+
+.whatyouseeimg{
+    grid-column: 2/4;
+    margin-top: 20px;
+}
+
+.whatyouseelist{
+    color: #525252;
+    padding-left: 20px;
+    padding-bottom: 15px;
+    grid-column: 4/5;
+}
+
+.whatyouseetitle{
+    font-size: 20px;
+    padding-left: 30px;
+    padding-top: 20px;
+    grid-column: 4/5;
+    color: #525252;
+}
+/*Music- End*/
+
+/*Shows- Start*/
+
+.item03{
+    grid-column: 3/4;
+}
+
+.showsdate{
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    color: #825432;
+}
+
+.showslocation{
+    font-size: 20px;
+    float: right;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    color: #525252;
+}
+
+.item04{
+    grid-column: 4/5;
+}
+
+.showscity{
+    font-size: 20px;
+    color: #525252;
+    padding-left: 20px;
+    padding-top: 5px;
+    
+}
+
+.showstitle{
+    font-size: 90px;
+    color: #825432;
+}
+
+.tourimg{
+    margin-top: 40px;
+}
+/*Showa- End*/
+
+/*Footer- Start*/
+.footer{
+    background-color: #917b55;
+    width: 1280px;
+    height: 40px;
+    margin-inline-start: auto;
+    margin-inline-end: auto;   
+}
+
+.footer p{
+    text-align: center;
+    padding: 10px 40px;
+    color: #825432;
+}
+
+.footer_text {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.footer1{
+    background-color: #917b55;
+    width: 1280px;
+    height: 40px;
+    margin-inline-start: auto;
+    margin-inline-end: auto; 
+    margin-top: 500px;
+}
+
+.footer1 p{
+    text-align: center;
+    padding: 10px 40px;
+    color: #825432;
+}
+
+.footer_text1 {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+/*Footer- End*/
